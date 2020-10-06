@@ -1,0 +1,38 @@
+body, html {
+    background: darkslategrey;
+}
+
+.white-keys > kbd {
+    background-color: white;
+    display: inline-block;
+    position:relative;
+    width: 3rem;
+    height: 4rem;
+    padding: 9% 1% 0% 1%;
+    border: 5px solid gray;
+    margin-left: -4px;
+}
+.black-keys > kbd {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    position:relative;
+    left: -61px;
+    /*width: 3rem;*/
+    /*height: 4rem;*/
+    padding: 5% 1% 1% 1%;
+    border: 5px solid gray;
+    margin-left: 40px;
+}
+.black-keys > kbd:nth-child(n+3){
+    left: 20px;
+}
+.black-keys {
+    position:relative;
+    top: -13.9em;
+}
+
+.container {
+    text-align: center;
+    margin-block-start: 15%;
+}
